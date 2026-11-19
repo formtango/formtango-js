@@ -1,0 +1,26 @@
+{
+  "name": "formtango-cli",
+  "version": "0.1.0",
+  "description": "Command line tool for FormTango: create forms and read submissions from the terminal.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "formtango": "./formtango.js"
+  },
+  "files": [
+    "formtango.js",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "homepage": "https://formtango.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/formtango/formtango-js.git",
+    "directory": "packages/cli"
+  },
+  "bugs": {
+    "url": "https://github.com/formtango/formtango-js/issues"
+  }
+}

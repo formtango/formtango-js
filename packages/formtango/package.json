@@ -1,0 +1,51 @@
+{
+  "name": "formtango",
+  "version": "0.1.0",
+  "description": "Send website forms to FormTango. A tiny submit helper and a React hook.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    },
+    "./react": {
+      "types": "./react.d.ts",
+      "default": "./react.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "react.js",
+    "react.d.ts",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  },
+  "keywords": [
+    "forms",
+    "form backend",
+    "contact form",
+    "react",
+    "formtango"
+  ],
+  "homepage": "https://formtango.com",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/formtango/formtango-js.git",
+    "directory": "packages/formtango"
+  },
+  "bugs": {
+    "url": "https://github.com/formtango/formtango-js/issues"
+  }
+}
